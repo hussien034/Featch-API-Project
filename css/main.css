@@ -1,0 +1,62 @@
+#home{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(../38598.jpg); background-position: center center; background-size: 100% 100%;
+
+    height: 100vh;
+    font-family: 'Azeret Mono', monospace; 
+}
+.navbar-brand{
+    color: yellow !important;
+    font-size: 30px !important;
+    font-weight: 500;
+}
+.nav-link{
+    font-size:18px;
+    color: white !important;
+    transition: all 1s;
+}
+.nav-link:hover{
+    color: yellow !important;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-size:50px;
+    color: yellow;
+}
+.btn-1{
+    background-color: transparent;
+    color: yellow;
+    border:  1px solid white;
+    font-size: 14px !important;
+    padding:10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+.btn-1:hover{
+    color: white;
+    background-color:teal;
+    border: 1px solid transparent;
+}
+img{
+    width:100%;
+    height: 200px;
+}
+.cap2{
+    margin-top: 20px;
+}
+.cap2 h2{
+    font-size:16px !important;
+    
+}
+@media all and (max-width:568px){
+    .cap2{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    } 
+}
